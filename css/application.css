@@ -207,7 +207,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #f0f0f0; }
+  border-top: 1px solid #ccc; }
 
 .page-header {
   padding-bottom: 9px;
@@ -423,8 +423,11 @@ footer {
   color: #434343;
   text-align: center;
   padding: 30px;
-  border: 1px solid #f0f0f0;
-  background: #fcfcfc;
+  border: 1px solid #ccc;
+  background: #efefef;
+  -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+    -moz-box-shadow: 1px 1px 2px 0px #ccc;
+    box-shadow: 1px 1px 2px 0px #ccc;
   margin: 0 auto 30px auto; }
 
 /*-----------------------------------------------------------------------------
@@ -434,8 +437,11 @@ footer {
   color: #434343; }
   .skills-section .skills-block .skills {
     padding: 30px 30px 40px;
-    border: 1px solid #f0f0f0;
-    background: #fcfcfc;
+    border: 1px solid #ccc;
+    background: #efefef;
+    -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+    -moz-box-shadow: 1px 1px 2px 0px #ccc;
+    box-shadow: 1px 1px 2px 0px #ccc;
     margin: 0 auto 30px auto; }
     .skills-section .skills-block .skills .skills-info {
       margin-bottom: 5px;
@@ -453,9 +459,12 @@ footer {
 ------------------------------------------------------------------------------*/
 .education-section .text-content {
   padding: 30px;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #ccc;
   margin: 0 auto 30px auto;
-  background: #fcfcfc;
+  background: #efefef;
+  -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+    -moz-box-shadow: 1px 1px 2px 0px #ccc;
+    box-shadow: 1px 1px 2px 0px #ccc;
   text-align: center; }
   .education-section .text-content h6 {
     border: 1px solid #f0f0f0;
@@ -470,8 +479,11 @@ footer {
 ------------------------------------------------------------------------------*/
 .employment-section .text-content {
   padding: 30px;
-  border: 1px solid #f0f0f0;
-  background: #fcfcfc;
+  border: 1px solid #ccc;
+  background: #efefef;
+  -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+    -moz-box-shadow: 1px 1px 2px 0px #ccc;
+    box-shadow: 1px 1px 2px 0px #ccc;
   margin: 0 auto 30px auto;
   text-align: center; }
   .employment-section .text-content h6 {
@@ -492,8 +504,11 @@ footer {
     .projects-section .projects-block .logo {
       text-align: center;
       padding: 10px;
-      border: 1px solid #f0f0f0;
-      background: #fcfcfc;
+      border: 1px solid #ccc;
+      background: #efefef;
+      -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+      -moz-box-shadow: 1px 1px 2px 0px #ccc;
+      box-shadow: 1px 1px 2px 0px #ccc;
       transition: all .5s; }
       .projects-section .projects-block .logo img {
         display: block;
@@ -524,8 +539,11 @@ footer {
 ------------------------------------------------------------------------------*/
 .interest-section {
   padding: 30px;
-  border: 1px solid #f0f0f0;
-  background: #fcfcfc;
+  border: 1px solid #ccc;
+  background: #efefef;
+  -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+    -moz-box-shadow: 1px 1px 2px 0px #ccc;
+    box-shadow: 1px 1px 2px 0px #ccc;
   margin: 0 auto 30px auto; }
   .interest-section .interest-block {
     text-align: center; }
