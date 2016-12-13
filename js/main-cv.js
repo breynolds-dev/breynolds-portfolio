@@ -69,52 +69,6 @@
         }
 
         /* ---------------------------------------------
-         SKILLS BAR INIT
-         --------------------------------------------- */
-        var skillsSection = "#skills";
-
-        function skillsBarInit() {
-            $(window).on('scroll', function () {
-                if ($(skillsSection).visible(true)) {
-                    counterAnimationInit();
-                    skillsBarWidth();
-                }
-            });
-        }
-
-        function skillsBarWidth() {
-            $(skillsSection).find('.skills-bar').each(function () {
-                $(this).animate({
-                    width: $(this).attr('data-percent')
-                }, 5000, 'swing');
-            });
-            skillsBarWidth = function () {
-            };
-        }
-
-        function counterAnimationInit() {
-            $('.counter-numbers').countTo('start');
-            counterAnimationInit = function () {
-            };
-        }
-
-        /* ---------------------------------------------
-         TESTIMONIALS
-         --------------------------------------------- */
-        function testimonialSliderInit() {
-            var testimonialsSlider = new Swiper('#testimonials-slider', {
-                pagination: '.swiper-pagination-testimonials',
-                a11y: true,
-                observer: true,
-                speed: 1000,
-                observeParents: true,
-                keyboardControl: true,
-                autoHeight: true,
-                paginationClickable: true
-            });
-        }
-
-        /* ---------------------------------------------
          HEADER HEIGHT INIT
          --------------------------------------------- */
         function headerHeightInit() {
@@ -136,8 +90,6 @@
         backgroundImageInit();
         headerHeightInit();
         scrollToTOpInit();
-        testimonialSliderInit();
-
 
       /***ON-LOAD***/
       jQuery(window).on('load', function () {
@@ -146,11 +98,7 @@
          REMOVE PRELOADER
          --------------------------------------------- */
         $("div#pre-loader").addClass('animated fadeOut').delay(200).fadeOut();
-
-        /* ---------------------------------------------
-         INITIALIZE FUNCTIONS ON LOAD
-         --------------------------------------------- */
-        skillsBarInit();
+        $('.text-content').matchHeight();
       });
     });
 })(jQuery);
