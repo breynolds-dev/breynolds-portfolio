@@ -498,7 +498,7 @@ footer {
                                 PROJECTS SECTION
 ------------------------------------------------------------------------------*/
 .projects-section {
-  margin: 0 auto 15px auto; }
+  margin: 0 15px 15px 15px; }
   .projects-section .projects-block {
     margin-bottom: 15px; }
     .projects-section .projects-block .logo {
@@ -528,11 +528,21 @@ footer {
 
 .project-heading {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 0;
   margin-bottom: 15px;
   color: #292727;
   letter-spacing: 2px;
-  text-decoration: underline;
+  border-bottom: 1px solid #ccc;
+}
+
+.project-footer {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  color: #292727;
+  letter-spacing: 2px;
+  border-top: 1px solid #ccc;
 }
 
 /*-----------------------------------------------------------------------------
